@@ -6,15 +6,6 @@ The LungCap dataset consists of 725 valid observations and 6 variables: Age, Hei
 
 Descriptive Statistics 
 
-Variable	Class	Obs	Mean	Median	SD	Min	Max
-LungCap (cc)	Numeric	725	7.863	8	2.662	0.507	14.675
-Age (years)	Integer	725	12.33	13	4	3	19
-Height (inches)	Numeric	725	64.84	65.4	7.2	45.3	81.8
-Smoke	Character	725	-	-	-	-	-
-Gender	Character	725	-	-	-	-	-
-Caesarean	Character	725	-	-	-	-	-
-![image](https://github.com/janie140/NU-aly6010-LungCap-data/assets/121474131/afa6f049-8e17-4ec8-bede-d4fcef23eca6)
-
 <img width="239" alt="image" src="https://github.com/janie140/NU-aly6010-LungCap-data/assets/121474131/daa09969-d200-42c6-8b01-68df4aeca172">
 An example of cross-tabulation between Gender and Smoke 
 
@@ -22,11 +13,14 @@ An example of cross-tabulation between Gender and Smoke
 
 In the above graphs, counts of each variable were shown. The age distribution has a slightly negative skewness, while the height variable has a nearly symmetrical distribution. The number of people who were not born by the caesarean method is three times higher than the number of people born by this method. The gender histogram clearly shows that the male and female quantities are almost similar, and the number of people who smoke is much less than the number of non-smokers.
 
+#Correlation between Age, Height, and Lung Capacity
+
 <img width="503" alt="image" src="https://github.com/janie140/NU-aly6010-LungCap-data/assets/121474131/5876e8bf-94b6-48ec-8da4-e3c986161a71">
 
 Both plots present strong positive correlations between Age and Lung Capacity, Height and Lung Capacity. As age increases within the range of 0 to 20 years, lung capacity also tends to increase. Also, taller individuals tend to have higher lung capacity.
 
-#Other variables’ relationship with Lung Capacity 
+#Other variables’ relationship with Lung Capacity
+
 From the figures below, we can observe that non-smokers generally exhibit greater lung capacity than smokers. Additionally, those who were not born via Caesarean section appear to have slightly greater lung capacity than those who were. Besides, males tend to have higher lung capacity than females.
 
 ![image](https://github.com/janie140/NU-aly6010-LungCap-data/assets/121474131/7a1c4385-36bb-4918-ae70-520d8e095602)
